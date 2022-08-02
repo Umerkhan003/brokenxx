@@ -109,7 +109,7 @@ def login():
 		except requests.exceptions.ConnectionError:
 			li = '# PROBLEM INTERNET CONNECTION, CHECK AND TRY AGAIN'
 			lo = mark(li, style='red')
-			sol().print(lo, style='purple')
+			sol().print=(lo, style='purple') 
 			exit()
 	except IOError:
 		login_lagi334()
